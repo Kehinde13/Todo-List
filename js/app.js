@@ -79,6 +79,7 @@ const addNewTodo = (event) => {
  addTodo.addEventListener("click", addNewTodo)
 
 
+
 //check todo as completed
 const toggleTodoCompletion = (event) => {
      //toggle the task completion
@@ -116,6 +117,16 @@ clear.addEventListener('click', () => {
      localStorage.clear('savedTodos');
      list.remove()
 }) 
+
+
+
+
+
+
+
+
+
+
 
 
 
