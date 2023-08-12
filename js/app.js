@@ -50,7 +50,7 @@ const addNewTodo = (event) => {
      event.preventDefault()
 
      //check if the input is empty
-     if(input.value.length === ""){
+     if(input.value.length == ""){
           alert("Write a To-Do");
      } else {
 
@@ -75,18 +75,8 @@ const addNewTodo = (event) => {
     
  }
 
-//add anew todo event
+//add a new todo event
  addTodo.addEventListener("click", addNewTodo)
-
- //add a new todo when the enter key is pressed 
- input.addEventListener('keydown', (event) => {
-     event.preventDefault()
-     if (event.key === 'Enter') {
-       addNewTodo;
-       console.log(addNewTodo);
-     }
-   });
-
 
 
 //check todo as completed
